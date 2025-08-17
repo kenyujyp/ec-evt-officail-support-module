@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: petejohanson
-      url-base: https://github.com/petejohanson
+    - name: kenyujyp
+      url-base: https://github.com/kenyujyp
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -11,8 +11,8 @@ manifest:
       remote: zmkfirmware
       revision: v0.3
       import: app/west.yml
-    - name: ec-support-zmk-module
-      remote: petejohanson
+    - name: zmk-ec-support-debug_module
+      remote: kenyujyp
       revision: main
   self:
     path: config
