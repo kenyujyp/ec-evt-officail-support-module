@@ -28,3 +28,6 @@ CONFIG_FLASH=y
 CONFIG_FLASH_PAGE_LAYOUT=y
 CONFIG_FLASH_MAP=y
 
+# enable print functions
+CONFIG_PRINTK=y
+
