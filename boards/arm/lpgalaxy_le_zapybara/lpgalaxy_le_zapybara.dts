@@ -57,7 +57,7 @@
 	        , <&left_mux 7 0>                   \
         ;                                           \
         io-channels = <&adc 1>;                     \
-        matrix-relax-us = <3>;                      \
+        matrix-relax-us = <5>;                      \
         matrix-warm-up-us = <500>;                  \
         adc-read-settle-us = <1>;                   \
         strobe-input-masks = <0 0>;                 \

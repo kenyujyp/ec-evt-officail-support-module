@@ -39,4 +39,16 @@
 
     drain-gpios = <&gpio0 30 (GPIO_ACTIVE_HIGH | NRF_GPIO_DRIVE_H0H1)>;
     //power-gpios = <&gpio0 31 (GPIO_ACTIVE_HIGH | NRF_GPIO_DRIVE_H0H1)>;
+    precalib-avg-highs = <
+		4200
+		4200
+		4200
+        4200
+	>;
+precalib-avg-lows = <
+		63
+		63
+		62
+        72
+	>;
 };
